@@ -1,0 +1,32 @@
+/* GLOBAL */
+.principal div{
+    display: flex;
+    align-items: center;
+}
+
+/* IMAGEN Y LINK */
+.imagen img{
+    width: 100px;
+    border-radius: 50%;
+    border: 3px white solid;
+}
+.imagen a{
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 0.2rem 0.7rem;
+    max-height: fit-content;
+    margin: 2rem;
+}
+
+
+/* CONTENIDO DEL PERFIL  */
+.principal h1{
+    font-size: 3rem;
+    margin: 0.5rem 0;
+}
+.principal p{
+    font-weight: 400;
+    font-size: 1.2rem;
+}
