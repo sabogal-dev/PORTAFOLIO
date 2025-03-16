@@ -1,6 +1,33 @@
-.card{
+/* titulo */
+h2{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+/* tarjetas */
+.card {
     display: flex;
+    align-items: center;
+    margin-bottom: 5rem;
 }
-.card img{
-    width: 15rem;
+
+.card img {
+    border-radius: 20px;
+    margin-right: 2rem;
+    max-height: 300px;
+    object-fit: cover;
+    width: 300px;
 }
+.card p{
+    opacity: 70%;
+}
+
+@media (max-width: 800px) {
+    .card img{
+        width: 95%;
+        max-height: none;
+    }
+    .card{
+        flex-direction: column;
+    }
+  }

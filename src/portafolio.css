@@ -10,7 +10,11 @@ body {
     max-width: 1000px;
     margin: 12rem auto 0 auto;
 }
-
+#root{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .creditos {
     color: white;
     text-decoration: none;
@@ -18,4 +22,12 @@ body {
     bottom: 0;
     right: 0;
     margin: 2rem;
+}
+
+
+
+@media (max-width: 800px) {
+    body{
+        width: 95%;
+    }
 }

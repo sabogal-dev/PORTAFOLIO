@@ -1,5 +1,8 @@
 /* GLOBAL */
-.principal div{
+.principal{
+    margin-bottom: 15rem;
+}
+.principal .imagen{
     display: flex;
     align-items: center;
 }
@@ -8,13 +11,13 @@
 .imagen img{
     width: 100px;
     border-radius: 50%;
-    border: 3px white solid;
+    border: 5px solid #fafafa10;
 }
 .imagen a{
     color: white;
     text-decoration: none;
-    border: 1px solid white;
-    border-radius: 5px;
+    border: 2px solid white;
+    border-radius: 25px;
     padding: 0.2rem 0.7rem;
     max-height: fit-content;
     margin: 2rem;
@@ -29,4 +32,29 @@
 .principal p{
     font-weight: 400;
     font-size: 1.2rem;
+    opacity: 70%;
+}
+
+
+.botonesCaja{
+    display: flex;
+    gap: 1rem;
+}
+.boton{
+    display: flex;
+    border:2px solid white;
+    width: fit-content;
+    padding: 0.2rem 1rem;
+    border-radius: 25px;
+    background-color: #fafafa20;
+    transition: all 150ms ease-in-out;
+}
+.boton a{
+    margin-left: .5rem;
+    text-decoration: none;
+    color: white;
+}
+
+.boton:hover{
+    transform: scale(1.1);
 }
