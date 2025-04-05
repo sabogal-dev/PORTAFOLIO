@@ -1,5 +1,5 @@
 import React from 'react'
-import './proyectos.css'
+import './styles/proyectos.css'
 
 
 const personas = [
