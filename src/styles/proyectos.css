@@ -1,11 +1,20 @@
+/* seccion */
+.proyectos{
+    padding-top: 5rem;
+}
 /* titulo */
-h2{
+h2 {
     font-size: 2rem;
     font-weight: 700;
+    text-align: center;
 }
 
 /* tarjetas */
 .card {
+    background: rgb(93, 106, 133);
+    background: linear-gradient(90deg, rgb(77, 86, 104) 5%, rgb(41, 40, 40) 100%);
+    padding: 5px 10px;
+    border-radius: 15px;
     display: flex;
     align-items: center;
     margin-bottom: 5rem;
@@ -18,16 +27,18 @@ h2{
     object-fit: cover;
     width: 300px;
 }
-.card p{
+
+.card p {
     opacity: 70%;
 }
 
 @media (max-width: 800px) {
-    .card img{
+    .card img {
         width: 95%;
         max-height: none;
     }
-    .card{
+
+    .card {
         flex-direction: column;
     }
-  }
+}
