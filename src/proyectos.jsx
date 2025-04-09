@@ -5,14 +5,14 @@ import './styles/proyectos.css'
 const personas = [
     {
         id: 1,
-        titulo: "fastPay - Consultora de facturas",
+        titulo: "FastPay",
         descripcion: "Aplicacion fullstack conectada a la Api de Odoo de la empresa, consulta facturas para que asesores comerciales calculen descuentos para sus clientes y muestra un historial de pagos de cada factura, agilizando un 30% los procesos",
         imagen: "https://sabogal.tech/CDNportafolio/aprovehaDescuento.png",
         url: "https://sabogal.top"
     },
     {
         id: 2,
-        titulo: "workoutApp - Agenda de entrenamiento",
+        titulo: "WorkoutApp",
         descripcion: "Mejora tus entrenamietos con una agenda dedicada al Gym, multiples estadisticas, conectada a Supabase para BD y autenticacion de usuarios",
         imagen: "https://sabogal.tech/CDNportafolio/workoutapp.png",
         url: "#"
@@ -34,7 +34,7 @@ export function Card(props) {
             <div>
                 <h2>{titulo}</h2>
                 <p>{descripcion}</p>
-                <a href={url} target='_blank' >Abrir App</a>
+                <a href={url} target='_blank' >Go app</a>
             </div>
         </div>
     )

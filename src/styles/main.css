@@ -1,29 +1,28 @@
 /* GLOBAL */
 body {
-    background-color: #0F1113;
-
+    /* background-color: #0F1113;
+     */
+     background: rgb(0,0,0);
+    background: linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(33,33,33,1) 57%, rgba(71,71,71,1) 96%);
     color: white;
     font-family: 'Onest Variable', sans-serif;
     width: 60%;
     max-width: 1000px;
     margin: 12rem auto 0 auto;
 }
-
-a{
-    color: white;
-    text-decoration: none;
+.contenedorGeneral{
+    box-shadow: -5px 10px 10px #2c2c2c, 5px -5px 12px #1f1f1f83;
+    padding: 2rem;
+    background-color: #1F1F1F;
 }
 
-
-/* seccion principal */
-.principal {
-    margin-bottom: 15rem;
+.logoSabogal{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100px;
 }
 
-.principal .imagen {
-    display: flex;
-    align-items: center;
-}
 
 /* navegacion */
 nav {
@@ -37,40 +36,74 @@ nav {
 }
 
 nav ul {
+    
+    backdrop-filter: blur(5px);
     width: fit-content;
     border-radius: 25px;
-    background-color: rgba(255, 255, 255, 0.397);
+    background-color: rgba(255, 255, 255, 0.281);
     padding: 0;
     display: flex;
     gap: 1rem;
 }
 
 nav li {
-    font-size: 14px;
+    font-size: 16px;
     text-transform: capitalize;
     padding: 0.3rem 1rem;
     border-radius: 10px;
     list-style: none;
 }
 
-/* IMAGEN Y LINK */
-.imagen img {
-    width: 100px;
-    border-radius: 50%;
-    border: 5px solid #fafafa10;
+.muestras{
+    position: fixed;
+    right: 0;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+}
+.color1, .color2, .color3{
+    font-size: 12px;
+    width: 50px;
+    height: 50px;
+}
+.color1{
+    
+    background-color: #D4AF37;
+}
+.color2{
+    background-color: #1F1F1F;
+}
+.color3{
+    background-color:#D1D1D1 ;
 }
 
-.imagen a {
+a{
     color: white;
     text-decoration: none;
-    border: 2px solid white;
-    border-radius: 25px;
-    padding: 0.2rem 0.7rem;
-    max-height: fit-content;
-    margin: 2rem;
 }
 
 
+
+
+
+
+
+
+
+
+/* seccion principal */
+.principal {
+    padding-bottom: 5rem;
+    border-bottom: 2px solid #D4AF37;
+}
+
+.principal .imagen {
+    display: flex;
+    align-items: center;
+}
+.principal span{
+    color:#D4AF37;
+}
 /* CONTENIDO DEL PERFIL  */
 .principal h1 {
     font-size: 3rem;
@@ -80,13 +113,27 @@ nav li {
 .principal p {
     font-weight: 400;
     font-size: 1.2rem;
-    color: #fafafab6;
+    color: #D1D1D1;
 }
 .principal a span{
     color: white;
 }
+/* IMAGEN Y LINK */
+.imagen img {
+    width: 100px;
+    border-radius: 50%;
+    border: 10px solid #1F1F1F;
+}
 
-
+.imagen a {
+    color: white;
+    text-decoration: none;
+    border: 1px solid #D4AF37;
+    border-radius: 25px;
+    padding: 0.2rem 0.7rem;
+    max-height: fit-content;
+    margin: 2rem;
+}
 .botonesCaja {
     display: flex;
     gap: 1rem;
@@ -94,7 +141,7 @@ nav li {
 
 .boton {
     display: flex;
-    border: 2px solid white;
+    border: 2px solid #D4AF37;
     width: fit-content;
     padding: 0.2rem 1rem;
     border-radius: 25px;
@@ -112,12 +159,21 @@ nav li {
     transform: scale(1.1);
 }
 
+
+
+
+
 .skills{
     padding-top: 5rem;
     display: flex;
     flex-direction: column;
     align-items:center;
-    margin-bottom: 10rem;
+    margin-bottom: 5rem;
+    padding-bottom: 5rem;
+    border-bottom: 2px solid #D4AF37;
+}
+.skills span{
+    color: #D4AF37;
 }
 .skills div{
     width: 100%;
