@@ -12,18 +12,18 @@ const personas = [
     },
     {
         id: 2,
-        titulo: "WorkoutApp",
-        descripcion: "Mejora tus entrenamietos con una agenda dedicada al Gym, multiples estadisticas, conectada a Supabase para BD y autenticacion de usuarios",
-        imagen: "https://sabogal.tech/CDNportafolio/workoutapp.png",
-        url: "#"
+        titulo: "Dashboard CODE",
+        descripcion: "Visualiza estadísticas, productos y objetivos con React, Tailwind y Tremor Charts. Herramienta clave para el seguimiento empresarial y la toma de decisiones.",
+        imagen: "https://themes.getbootstrap.com/wp-content/uploads/2020/09/front-dashboard-v2-cover.jpeg",
+        url: "https://sabogal.top/dashboard/"
     },
     {
         id: 3,
-        titulo: "En blanco",
-        descripcion: "me falta hacer un proyecto mas para añadir por aca",
-        imagen: "https://sabogal.tech/CDNportafolio/imgperfil.jpg",
-        url: "#"
-    }
+        titulo: "WorkoutApp",
+        descripcion: "Mejora tus entrenamietos con una agenda dedicada al Gym, multiples estadisticas, conectada a Supabase para BD y autenticacion de usuarios",
+        imagen: "https://sabogal.tech/CDNportafolio/workoutapp.png",
+        url: "https://sabogal.tech/workoutapp/login.html"
+    },
 ]
 
 export function Card(props) {
