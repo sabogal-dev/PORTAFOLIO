@@ -1,28 +1,47 @@
 /* GLOBAL */
 body {
-    /* background-color: #0F1113;
-     */
     background: rgb(0, 0, 0);
     background: linear-gradient(45deg, rgba(0, 0, 0, 1) 0%, rgba(33, 33, 33, 1) 57%, rgba(71, 71, 71, 1) 96%);
     color: white;
     font-family: 'Onest Variable', sans-serif;
-    width: 60%;
-    max-width: 1000px;
-    margin: 12rem auto 0 auto;
+
 }
 
 .contenedorGeneral {
     box-shadow: -5px 10px 10px #2c2c2c, 5px -5px 12px #1f1f1f83;
     padding: 2rem;
     background-color: #1F1F1F;
+    width: 60%;
+    max-width: 1000px;
+    margin: 12rem auto 0 auto;
 }
 
 .logoSabogal {
     position: fixed;
     bottom: 0;
     left: 0;
-    width: 100px;
+    width: 80px;
+    border-radius: 10px;
+    margin: 1rem;
 }
+
+.downloadCv {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: .5rem .5rem;
+    margin: 1rem;
+    background-color: #ffffff32;
+    backdrop-filter: blur(10px);
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
 
 
 /* navegacion */
@@ -31,7 +50,7 @@ nav {
     z-index: 10;
     top: 1rem;
     text-align: center;
-    width: 60%;
+    width: 100%;
     display: flex;
     justify-content: center;
 }
@@ -82,11 +101,6 @@ nav li {
 
 .color3 {
     background-color: #D1D1D1;
-}
-
-a {
-    color: white;
-    text-decoration: none;
 }
 
 
@@ -180,7 +194,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 5rem;
+    margin-bottom: 8rem;
     padding-bottom: 5rem;
     border-bottom: 2px solid #D4AF37;
 }
@@ -190,22 +204,12 @@ a {
 }
 
 .skills div {
-    width: 100%;
+    align-items: center;
     display: grid;
+    gap: 2rem;
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
-    gap: 2rem;
-}
-
-
-
-.creditos {
-    color: white;
-    text-decoration: none;
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    margin: .5rem;
+    width: 100%;
 }
 
 /* chatbot */
@@ -239,25 +243,16 @@ a {
 }
 
 
-
+/* sitio para moviles o pantallas pequeñas */
 @media (max-width: 800px) {
-    body {
-        width: 95%;
+
+    nav {
+        width: 100%;
     }
 
-    /* .skills {
-        padding-top: 5rem;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-bottom: 5rem;
-        padding-bottom: 5rem;
-        border-bottom: 2px solid #D4AF37;
+    .contenedorGeneral {
+        width: 80%;
     }
-
-    .skills span {
-        color: #D4AF37;
-    } */
 
     .skills div {
         width: 100%;
@@ -266,8 +261,8 @@ a {
         justify-items: center;
         gap: 2rem;
     }
-
-    nav {
-        width: 100%;
+    .principal a{
+        text-wrap: nowrap;
+        margin-left: 0;
     }
 }

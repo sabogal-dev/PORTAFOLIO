@@ -31,10 +31,14 @@ export function Card(props) {
     return (
         <div className='card' >
             <img src={imagen} alt="prueba" />
-            <div>
+            <div className='cardDiv'>
                 <h2>{titulo}</h2>
-                <p>{descripcion}</p>
-                <a href={url} target='_blank' >Go app</a>
+                <div>
+                    <p></p>
+                    <p>{descripcion}</p>
+
+                </div>
+                <a href={url} target='_blank' className='boton'>Go app</a>
             </div>
         </div>
     )

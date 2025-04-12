@@ -1,6 +1,6 @@
 /* seccion */
 .proyectos {
-    padding-top: 5rem;
+    padding: 5rem 0;
 }
 
 /* titulo */
@@ -12,44 +12,50 @@ h2 {
 
 /* tarjetas */
 .card {
-    background: rgb(212, 175, 55);
-    background: linear-gradient(45deg, rgba(212, 175, 55, 0.3477766106442577) 0%, rgba(33, 33, 33, 1) 31%, rgba(51, 47, 35, 1) 78%, rgba(212, 175, 55, 0.16290266106442575) 100%);
-
-
-    /* border: 1px solid #D4AF37; */
-    box-shadow: -5px 10px 10px #2c2c2c, 5px -5px 12px #00000083;
     color: #D1D1D1;
-    padding: 5px 10px;
     display: flex;
-    align-items: center;
-    margin-bottom: 5rem;
+    /* align-items: center; */
+    margin: 0 0 8rem 0;
+    justify-content: center;
 }
-
-.card h2{
+.cardDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.card p{
+    margin: .2rem;
+}
+.card h2 {
     color: white;
-}
-
-.card a {
-    border: 2px solid #D4AF37;
-    padding: 0.1rem 1rem;
-    border-radius: 10px;
-    color: white;
-}
-
+    margin: 0;
+}   
 .card img {
     border-radius: 20px;
     margin-right: 2rem;
-    max-height: 300px;
+    /* max-height: 300px; */
+    width: 50%;
     object-fit: cover;
-    width: 300px;
 }
 
 
 @media (max-width: 800px) {
+    .proyectos {
+        padding: 0;
+    }
+
     .card img {
         width: 100%;
         margin: 0;
         max-height: none;
+    }
+    .card h2{
+        
+        color: #D4AF37;
+    }
+    .cardDiv{
+        width: 100%;
+        text-align: left;
     }
 
     .card {

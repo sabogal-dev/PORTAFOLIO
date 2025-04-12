@@ -1,8 +1,15 @@
 import React from 'react'
 
+const trabajos = [
+  {
+    prueba: "algo"
+  }
+]
 
-export default function experiencia() {
+export default function experiencia({ trabajos }) {
   return (
-    <div>experiencia</div>
+    <section id='experiencia'>
+      <h2>Experiencia</h2>
+    </section>
   )
 }
