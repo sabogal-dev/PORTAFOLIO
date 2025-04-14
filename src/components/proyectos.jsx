@@ -1,5 +1,5 @@
 import React from 'react'
-import './styles/proyectos.css'
+import "../styles/proyectos.css"
 
 
 const personas = [
@@ -26,7 +26,8 @@ const personas = [
     },
 ]
 
-export function Card(props) {
+
+function Card(props) {
     const { titulo, descripcion, imagen, url } = props;
     return (
         <div className='card' >

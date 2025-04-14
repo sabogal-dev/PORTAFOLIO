@@ -6,7 +6,9 @@ body {
     font-family: 'Onest Variable', sans-serif;
 
 }
-
+p{
+    color: #D1D1D1;
+}
 .contenedorGeneral {
     box-shadow: -5px 10px 10px #2c2c2c, 5px -5px 12px #1f1f1f83;
     padding: 2rem;
@@ -141,6 +143,7 @@ nav li {
 
 .principal a span {
     color: white;
+    
 }
 
 /* IMAGEN Y LINK */
@@ -264,5 +267,8 @@ nav li {
     .principal a{
         text-wrap: nowrap;
         margin-left: 0;
+    }
+    .principal .imagen a{
+        font-size: 12px;
     }
 }

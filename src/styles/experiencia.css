@@ -1,0 +1,43 @@
+#experiencia {
+    padding-top: 5rem;
+}
+
+#experiencia article {
+    display: flex;
+    padding-bottom: 2rem;
+    margin-bottom: 10rem;
+    border-bottom: 1px solid #d3d3d39f;
+}
+
+#experiencia article h3,
+h4 {
+    margin: 0;
+    color: #D4AF37;
+}
+
+.fecha {
+    text-align: right;
+}
+
+.DescripcionTrabajo {
+    width: 80%;
+    margin-left: 1rem;
+}
+
+.DescripcionTrabajo li{
+    margin: .5rem 0;
+    color: #d1d1d1;
+}
+
+@media (max-width: 800px){
+    #experiencia article{
+        flex-direction: column;
+    }
+    .fecha {
+        text-align: left;
+    }
+    .DescripcionTrabajo {
+        width: 100%;
+        margin-left: 0rem;
+    }
+}
