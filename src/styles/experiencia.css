@@ -14,13 +14,16 @@ h4 {
     margin: 0;
     color: #D4AF37;
 }
+#experiencia article :first-child{
+    flex-basis: 35%;
+}
 
 .fecha {
     text-align: right;
 }
 
 .DescripcionTrabajo {
-    width: 80%;
+    width: 100%;
     margin-left: 1rem;
 }
 
