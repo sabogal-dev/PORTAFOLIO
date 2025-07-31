@@ -9,8 +9,9 @@ const trabajos = [
     tiempo: "Junio 2023 - Actualidad",
     descripcion: "Gestione inventarios, picking y packing, liderando equipos en temporadas altas. Implementé el ERP Odoo, optimicé informes en Excel y creé scripts en Python para automatizar procesos. Brindo soporte técnico en hardware, software y redes. Mi desempeño me permitió apoyar también a empresas aliadas en asistencia técnica.",
     aportes: [
+      "Desarrollo de herramientas con Node.js, React y JavaScript vanilla.",
+      "Administracion de Servidor Ubuntu",
       "Implementación de ERP Odoo.",
-      "Desarrollo de herramientas con Node.js y JavaScript vanilla.",
       "Automatización de procesos con scripts en Python."
     ]
   },

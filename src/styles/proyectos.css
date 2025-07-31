@@ -44,7 +44,6 @@ h2 {
     object-fit: cover;
 }
 
-
 @media (max-width: 800px) {
     .proyectos {
         padding: 4rem 0 0;
